@@ -1,4 +1,4 @@
-obj-m += new.o
+obj-m += irqButton_to_LED.o
 
 ARCH  := arm
 CROSS := arm-linux-gnueabihf-
