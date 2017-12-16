@@ -1,9 +1,7 @@
 /*
- * @file   keypad.c
  * @author Kevin Amadiva
- * @date   15 Sep 2015
- * @brief  A kernel module for controlling gpios for a custorm keypad
- * @see    Dataintegrated.co.ke
+ * @date   16 Dec 2017
+ * @brief  A kernel module for handling interrupt GPIO button presses and in turn flip the state of an LED
 */
 
 #include <linux/init.h>
